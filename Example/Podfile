@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TCMultitaskTimer_Example' do
+  pod 'TCMultitaskTimer', :path => '../'
+
+  target 'TCMultitaskTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
