@@ -7,6 +7,7 @@
 //
 
 #import "TCTimerTestDemoVC2.h"
+#import "TCMultitaskTimer.h"
 
 @interface TCTimerTestDemoVC2 ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = NSStringFromClass(self.class);
+    [[TCMultitaskTimer sharedInstance] addTaskWithKey:self interval:7 task:^(TCTaskObject *status) {
+        NSLog(@"定时器任务.......4");
+    }];
+}
+
+- (void)dealloc {
+    NSLog(@"控制器已销毁，定时器任务4自动停止");
 }
 
 /*

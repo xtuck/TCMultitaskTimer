@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,6 +21,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		96F289E524819EFA00C2A1A7 /* TCTimerTestDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F289E424819EFA00C2A1A7 /* TCTimerTestDemoVC.m */; };
+		96F289E82481A23900C2A1A7 /* TCTimerTestDemoVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F289E72481A23900C2A1A7 /* TCTimerTestDemoVC2.m */; };
+		96F289EE2481A7B800C2A1A7 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F289ED2481A7B800C2A1A7 /* TCViewController.m */; };
 		9B14E2B2274F7063A09A1863 /* Pods_TCMultitaskTimer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AEAA0F1EDA632ECEE4069D /* Pods_TCMultitaskTimer_Tests.framework */; };
 		F38127D7D42B8FB57C148AAA /* Pods_TCMultitaskTimer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA60AE441F0B8F358AC30F7D /* Pods_TCMultitaskTimer_Example.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		07F7F3121EA850A99716ED93 /* Pods-TCMultitaskTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMultitaskTimer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B0A4423A4BF988F3C062306 /* Pods-TCMultitaskTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMultitaskTimer_Tests.release.xcconfig"; path = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B32B6B4B0ED0BC45CCFFB55 /* TCMultitaskTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCMultitaskTimer.podspec; path = ../TCMultitaskTimer.podspec; sourceTree = "<group>"; };
+		3B32B6B4B0ED0BC45CCFFB55 /* TCMultitaskTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCMultitaskTimer.podspec; path = ../TCMultitaskTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* TCMultitaskTimer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCMultitaskTimer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		6003F59B195388D20070C39A /* TCMultitaskTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCMultitaskTimer-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* TCMultitaskTimer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCMultitaskTimer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,11 +62,17 @@
 		65848180485AE5F777E123D8 /* Pods-TCMultitaskTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMultitaskTimer_Example.release.xcconfig"; path = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96F289E324819EFA00C2A1A7 /* TCTimerTestDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTimerTestDemoVC.h; sourceTree = "<group>"; };
+		96F289E424819EFA00C2A1A7 /* TCTimerTestDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTimerTestDemoVC.m; sourceTree = "<group>"; };
+		96F289E62481A23900C2A1A7 /* TCTimerTestDemoVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTimerTestDemoVC2.h; sourceTree = "<group>"; };
+		96F289E72481A23900C2A1A7 /* TCTimerTestDemoVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTimerTestDemoVC2.m; sourceTree = "<group>"; };
+		96F289EC2481A7B800C2A1A7 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		96F289ED2481A7B800C2A1A7 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
 		AA60AE441F0B8F358AC30F7D /* Pods_TCMultitaskTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCMultitaskTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AEAA0F1EDA632ECEE4069D /* Pods_TCMultitaskTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCMultitaskTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF4FFED14210869483569DD /* Pods-TCMultitaskTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCMultitaskTimer_Example.debug.xcconfig"; path = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D61675CA3391FF4FD5293616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC7997BC1DA4200D4B9803CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D61675CA3391FF4FD5293616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FC7997BC1DA4200D4B9803CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,6 @@
 				07F7F3121EA850A99716ED93 /* Pods-TCMultitaskTimer_Tests.debug.xcconfig */,
 				2B0A4423A4BF988F3C062306 /* Pods-TCMultitaskTimer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,8 +152,12 @@
 				6003F59C195388D20070C39A /* TCAppDelegate.h */,
 				6003F59D195388D20070C39A /* TCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TCViewController.h */,
-				6003F5A6195388D20070C39A /* TCViewController.m */,
+				96F289EC2481A7B800C2A1A7 /* TCViewController.h */,
+				96F289ED2481A7B800C2A1A7 /* TCViewController.m */,
+				96F289E324819EFA00C2A1A7 /* TCTimerTestDemoVC.h */,
+				96F289E424819EFA00C2A1A7 /* TCTimerTestDemoVC.m */,
+				96F289E62481A23900C2A1A7 /* TCTimerTestDemoVC2.h */,
+				96F289E72481A23900C2A1A7 /* TCTimerTestDemoVC2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +356,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
 				"${BUILT_PRODUCTS_DIR}/TCMultitaskTimer/TCMultitaskTimer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TCMultitaskTimer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +378,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F289E524819EFA00C2A1A7 /* TCTimerTestDemoVC.m in Sources */,
+				96F289EE2481A7B800C2A1A7 /* TCViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* TCViewController.m in Sources */,
+				96F289E82481A23900C2A1A7 /* TCTimerTestDemoVC2.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

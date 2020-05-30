@@ -1,0 +1,27 @@
+PODS:
+  - Aspects (1.4.1)
+  - MSWeakTimer (1.1.0)
+  - TCMultitaskTimer (0.1.0):
+    - Aspects
+    - MSWeakTimer
+
+DEPENDENCIES:
+  - TCMultitaskTimer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - MSWeakTimer
+
+EXTERNAL SOURCES:
+  TCMultitaskTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  TCMultitaskTimer: 35913d97bccc211fdf982aa80dc8d06b775873fd
+
+PODFILE CHECKSUM: 4f506e8c056b5d98345e7d635620998be8116b06
+
+COCOAPODS: 1.7.3

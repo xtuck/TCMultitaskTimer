@@ -1,0 +1,6 @@
+framework module TCMultitaskTimer {
+  umbrella header "TCMultitaskTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

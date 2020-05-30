@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD913F5A897A7E06CC1F06FB107901A /* Pods-TCMultitaskTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B004EC3CD2F6A4135CBCE5F8DD9567D0 /* Pods-TCMultitaskTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C56AC4D5C44EF4B3BC13C7CB9610CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */; };
+		2111CA0462A39986ECFB5680D1DCEA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */; };
+		270C08FCB074B851553ED3C334E8EF1A /* TCMultitaskTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C966E4DA76704701C3E59CEAAF3928 /* TCMultitaskTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EDE7E3AF0829D86ABF7CF51A3BF5443 /* Pods-TCMultitaskTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E82AA20A9198005952303EF974502 /* Pods-TCMultitaskTimer_Tests-dummy.m */; };
+		533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */; };
+		5F0BB7ABE9E80A64C47F5F8A95746FA8 /* MSWeakTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD8DDC00D4E9723D238EF59AC67DA94 /* MSWeakTimer-dummy.m */; };
+		6937BBAC41EBCC158934912D0B3396C3 /* TCMultitaskTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF82399F86D70D91D391849F556C4AC /* TCMultitaskTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C9269E7E23AE3505BB4061F6C33350 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CD5B9BEDF0F1A9AF8024E0CBC71531 /* Pods-TCMultitaskTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 246A71EF8D03A84257B4D5E8EC781F9D /* Pods-TCMultitaskTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86CA5370D531739324A80F30652799DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */; };
+		8984E44E8E44E5FD3A3D02C53671AFBD /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A286A1C91C7C8BD8EF8B2F2EB9582 /* MSWeakTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F217C98EECAED6212C9783AB47FB8B7 /* Pods-TCMultitaskTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B28C282C7E8469A45FB81EBFE588FF /* Pods-TCMultitaskTimer_Example-dummy.m */; };
+		944245E0AEC3B5427940F958FF093374 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1146374E957D0703496FA7A24707909C /* Aspects.framework */; };
+		A0AEE49256AE78CD6D611B9AB79B3192 /* TCMultitaskTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B14019A547AC202DDF1E224174DA4F /* TCMultitaskTimer-dummy.m */; };
+		A7CDD42F921F8FA6DEA5F9AD3090D8AC /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C83E030257F515BB79717AF3A26498 /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D23EDB917334A5EC7F2B016FAD848 /* Aspects-dummy.m */; };
+		AD41F519DA9F7704DB024364D17D03CA /* TCMultitaskTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C100856E892966186A18A8746215C6 /* TCMultitaskTimer.m */; };
+		D230612BFB7B7BA40F7B5A36571AB9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */; };
+		D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AB237D65D1C92BBCB7F1D7726BC5B9 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43C672EE607504273865D7CE454DD68 /* MSWeakTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406CE00C2FF1D350BEBC27C42B1F4F75 /* MSWeakTimer.framework */; };
+		F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = BB576610C655681C36A6F4009182E55A /* Aspects.m */; };
+		FBA583B3A25BBBE1B4E035ABEED6E0ED /* MSWeakTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6721A4330FC8259877048C838F9AC108 /* MSWeakTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10D9FF7EB554869E17DE653FD8E2BE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EADFE71DAD3CFEF1663BF195FBDB789;
+			remoteInfo = "Pods-TCMultitaskTimer_Example";
+		};
+		13DA9B2BD1A4696667039430A15EAC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
+			remoteInfo = Aspects;
+		};
+		586E093C07EC1CFE5AA63B90D42D2262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0E19903D6AA870173CAD7081439951;
+			remoteInfo = TCMultitaskTimer;
+		};
+		865047355BC774F7B0C863DF0BF59715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420D2583DFAF7192FECF567682010347;
+			remoteInfo = MSWeakTimer;
+		};
+		8CDA730DAED3B0A133C149C88D10261F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
+			remoteInfo = Aspects;
+		};
+		BB208A931347E509065A9DD90482C174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420D2583DFAF7192FECF567682010347;
+			remoteInfo = MSWeakTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8A9CAEF03E75DD51D45E9349613FE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		10C9269E7E23AE3505BB4061F6C33350 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		1146374E957D0703496FA7A24707909C /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDE1E6996082C1E0456AB04ACEFD34A /* MSWeakTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSWeakTimer-Info.plist"; sourceTree = "<group>"; };
+		1D318A01B3DCC70AE20608461B857F15 /* TCMultitaskTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCMultitaskTimer.modulemap; sourceTree = "<group>"; };
+		212ABBE0BD4495DE81EB7C860A95C64E /* Pods_TCMultitaskTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCMultitaskTimer_Example.framework; path = "Pods-TCMultitaskTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D8F73D8A5003977B4DEFBDCC347327 /* Pods-TCMultitaskTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCMultitaskTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		246A71EF8D03A84257B4D5E8EC781F9D /* Pods-TCMultitaskTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCMultitaskTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2A1E10468F328DE575F43F51DD47CD7B /* MSWeakTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-prefix.pch"; sourceTree = "<group>"; };
+		2E6D23EDB917334A5EC7F2B016FAD848 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		3232301977BD4B3D69CF627C5C6412DC /* Pods-TCMultitaskTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCMultitaskTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3420EF0849B107E8ED815086E561D089 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		3FD96A24E9588AF738E0D67F6EF8FAE5 /* TCMultitaskTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TCMultitaskTimer-Info.plist"; sourceTree = "<group>"; };
+		406CE00C2FF1D350BEBC27C42B1F4F75 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C100856E892966186A18A8746215C6 /* TCMultitaskTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCMultitaskTimer.m; path = TCMultitaskTimer/Classes/TCMultitaskTimer.m; sourceTree = "<group>"; };
+		429B873E94457FB2D7157F759498E3E6 /* Pods-TCMultitaskTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCMultitaskTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		4855D83FE576A47E538571EF86A8E812 /* TCMultitaskTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCMultitaskTimer.framework; path = TCMultitaskTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A7ACEF7DE10BB24F8AEAF7F2C330B0 /* Pods-TCMultitaskTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCMultitaskTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		49C3463E2E33D7C49709822C3158A3FF /* TCMultitaskTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCMultitaskTimer.xcconfig; sourceTree = "<group>"; };
+		4D4E0B31FFB7A5074A31CFD33BF133F9 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		647F2090A8BB0FB817280E18DC54DA81 /* Pods-TCMultitaskTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCMultitaskTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		65C966E4DA76704701C3E59CEAAF3928 /* TCMultitaskTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCMultitaskTimer-umbrella.h"; sourceTree = "<group>"; };
+		6721A4330FC8259877048C838F9AC108 /* MSWeakTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-umbrella.h"; sourceTree = "<group>"; };
+		6BD8DDC00D4E9723D238EF59AC67DA94 /* MSWeakTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSWeakTimer-dummy.m"; sourceTree = "<group>"; };
+		77DD624379A1F7B9A191F384160B348A /* Pods-TCMultitaskTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCMultitaskTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C5109FC24097BFDC00992364FA6D9A4 /* Pods-TCMultitaskTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCMultitaskTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		850E82AA20A9198005952303EF974502 /* Pods-TCMultitaskTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCMultitaskTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		85B526F6A94D302FEBCE7C38024ED24F /* Pods-TCMultitaskTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCMultitaskTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E950E681365A41B93C3626C212A2891 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSWeakTimer.framework; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B14019A547AC202DDF1E224174DA4F /* TCMultitaskTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCMultitaskTimer-dummy.m"; sourceTree = "<group>"; };
+		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6BD372018D43E7CFEA6AA775A7AEB7 /* Pods-TCMultitaskTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCMultitaskTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4A286A1C91C7C8BD8EF8B2F2EB9582 /* MSWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		A4DCE43485AC74C1DC081ABE4FD03CF2 /* Pods-TCMultitaskTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCMultitaskTimer_Example.modulemap"; sourceTree = "<group>"; };
+		A6AB237D65D1C92BBCB7F1D7726BC5B9 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		A7EB250A4B5CC0869483259395B7291B /* MSWeakTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSWeakTimer.xcconfig; sourceTree = "<group>"; };
+		AC3E72546F65A934AFB6FEEC5CECB1A2 /* TCMultitaskTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TCMultitaskTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD9F64325475DC2A006E86B04F07C643 /* TCMultitaskTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCMultitaskTimer-prefix.pch"; sourceTree = "<group>"; };
+		B004EC3CD2F6A4135CBCE5F8DD9567D0 /* Pods-TCMultitaskTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCMultitaskTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		BB576610C655681C36A6F4009182E55A /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		BD9C73EBC43E10ADC24BB08A963CA1E7 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		C5C83E030257F515BB79717AF3A26498 /* MSWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		CD24224894DFB21DA305E0830D69B8BB /* Pods_TCMultitaskTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TCMultitaskTimer_Tests.framework; path = "Pods-TCMultitaskTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD50F231E10A4C83B651BCEFC525DB79 /* Pods-TCMultitaskTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCMultitaskTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D1C3BBAB0A4A3D3D6F258836DCA39ABD /* Aspects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Aspects-Info.plist"; sourceTree = "<group>"; };
+		D40DE92D0E689BE4CE57856CDA7FF0EF /* Pods-TCMultitaskTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCMultitaskTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D88729E91D7E85CB012046A90AA996DD /* MSWeakTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSWeakTimer.modulemap; sourceTree = "<group>"; };
+		ECF82399F86D70D91D391849F556C4AC /* TCMultitaskTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCMultitaskTimer.h; path = TCMultitaskTimer/Classes/TCMultitaskTimer.h; sourceTree = "<group>"; };
+		F8B28C282C7E8469A45FB81EBFE588FF /* Pods-TCMultitaskTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCMultitaskTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		FC922EAAE1E22A72CE75DFA94946E3E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FD1520A49776863607149627FD3D8115 /* Pods-TCMultitaskTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCMultitaskTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		949A17548317CD0DDA8843873EA8484C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944245E0AEC3B5427940F958FF093374 /* Aspects.framework in Frameworks */,
+				86CA5370D531739324A80F30652799DB /* Foundation.framework in Frameworks */,
+				F43C672EE607504273865D7CE454DD68 /* MSWeakTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44741AAF2052C66507E1F070DFE90D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C56AC4D5C44EF4B3BC13C7CB9610CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DC91A82E70E17CF7D6B10E77ADD4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D230612BFB7B7BA40F7B5A36571AB9CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA343695D43B253A24F5F37817D1358A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2111CA0462A39986ECFB5680D1DCEA02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A4B6AA36D82A464620967A0511D432 /* TCMultitaskTimer */ = {
+			isa = PBXGroup;
+			children = (
+				ECF82399F86D70D91D391849F556C4AC /* TCMultitaskTimer.h */,
+				41C100856E892966186A18A8746215C6 /* TCMultitaskTimer.m */,
+				42CB60B94B3F519521C74169B308628A /* Pod */,
+				8550D715503A1BB882707AC18194D69A /* Support Files */,
+			);
+			name = TCMultitaskTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4096EAE5C1AAFDCEEEA5855EA33E84A8 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				A6AB237D65D1C92BBCB7F1D7726BC5B9 /* Aspects.h */,
+				BB576610C655681C36A6F4009182E55A /* Aspects.m */,
+				E40F48DF434A29E2026D250AB504AF93 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		42CB60B94B3F519521C74169B308628A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E8A9CAEF03E75DD51D45E9349613FE1 /* LICENSE */,
+				FC922EAAE1E22A72CE75DFA94946E3E5 /* README.md */,
+				AC3E72546F65A934AFB6FEEC5CECB1A2 /* TCMultitaskTimer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4811CDED0E98BB0CDF108F927281E436 /* Pods-TCMultitaskTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCE43485AC74C1DC081ABE4FD03CF2 /* Pods-TCMultitaskTimer_Example.modulemap */,
+				FD1520A49776863607149627FD3D8115 /* Pods-TCMultitaskTimer_Example-acknowledgements.markdown */,
+				22D8F73D8A5003977B4DEFBDCC347327 /* Pods-TCMultitaskTimer_Example-acknowledgements.plist */,
+				F8B28C282C7E8469A45FB81EBFE588FF /* Pods-TCMultitaskTimer_Example-dummy.m */,
+				48A7ACEF7DE10BB24F8AEAF7F2C330B0 /* Pods-TCMultitaskTimer_Example-frameworks.sh */,
+				7C5109FC24097BFDC00992364FA6D9A4 /* Pods-TCMultitaskTimer_Example-Info.plist */,
+				B004EC3CD2F6A4135CBCE5F8DD9567D0 /* Pods-TCMultitaskTimer_Example-umbrella.h */,
+				85B526F6A94D302FEBCE7C38024ED24F /* Pods-TCMultitaskTimer_Example.debug.xcconfig */,
+				CD50F231E10A4C83B651BCEFC525DB79 /* Pods-TCMultitaskTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-TCMultitaskTimer_Example";
+			path = "Target Support Files/Pods-TCMultitaskTimer_Example";
+			sourceTree = "<group>";
+		};
+		4DC33AAF70DF7DEC23F169A043DE3A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4096EAE5C1AAFDCEEEA5855EA33E84A8 /* Aspects */,
+				8403E7AC5BBE424E3C9913D0B7D573EB /* MSWeakTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61BCB310CA4F0A81C2FA4B9E7CF951F4 /* Pods-TCMultitaskTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				429B873E94457FB2D7157F759498E3E6 /* Pods-TCMultitaskTimer_Tests.modulemap */,
+				3232301977BD4B3D69CF627C5C6412DC /* Pods-TCMultitaskTimer_Tests-acknowledgements.markdown */,
+				9D6BD372018D43E7CFEA6AA775A7AEB7 /* Pods-TCMultitaskTimer_Tests-acknowledgements.plist */,
+				850E82AA20A9198005952303EF974502 /* Pods-TCMultitaskTimer_Tests-dummy.m */,
+				647F2090A8BB0FB817280E18DC54DA81 /* Pods-TCMultitaskTimer_Tests-Info.plist */,
+				246A71EF8D03A84257B4D5E8EC781F9D /* Pods-TCMultitaskTimer_Tests-umbrella.h */,
+				D40DE92D0E689BE4CE57856CDA7FF0EF /* Pods-TCMultitaskTimer_Tests.debug.xcconfig */,
+				77DD624379A1F7B9A191F384160B348A /* Pods-TCMultitaskTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-TCMultitaskTimer_Tests";
+			path = "Target Support Files/Pods-TCMultitaskTimer_Tests";
+			sourceTree = "<group>";
+		};
+		7C8539A25056DE9907BCC89DD28CE248 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29A4B6AA36D82A464620967A0511D432 /* TCMultitaskTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8403E7AC5BBE424E3C9913D0B7D573EB /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C83E030257F515BB79717AF3A26498 /* MSWeakTimer.h */,
+				9F4A286A1C91C7C8BD8EF8B2F2EB9582 /* MSWeakTimer.m */,
+				899B5A4F121C8891ED1BD0AB7F751C99 /* Support Files */,
+			);
+			name = MSWeakTimer;
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		8550D715503A1BB882707AC18194D69A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D318A01B3DCC70AE20608461B857F15 /* TCMultitaskTimer.modulemap */,
+				49C3463E2E33D7C49709822C3158A3FF /* TCMultitaskTimer.xcconfig */,
+				91B14019A547AC202DDF1E224174DA4F /* TCMultitaskTimer-dummy.m */,
+				3FD96A24E9588AF738E0D67F6EF8FAE5 /* TCMultitaskTimer-Info.plist */,
+				AD9F64325475DC2A006E86B04F07C643 /* TCMultitaskTimer-prefix.pch */,
+				65C966E4DA76704701C3E59CEAAF3928 /* TCMultitaskTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TCMultitaskTimer";
+			sourceTree = "<group>";
+		};
+		899B5A4F121C8891ED1BD0AB7F751C99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88729E91D7E85CB012046A90AA996DD /* MSWeakTimer.modulemap */,
+				A7EB250A4B5CC0869483259395B7291B /* MSWeakTimer.xcconfig */,
+				6BD8DDC00D4E9723D238EF59AC67DA94 /* MSWeakTimer-dummy.m */,
+				1CDE1E6996082C1E0456AB04ACEFD34A /* MSWeakTimer-Info.plist */,
+				2A1E10468F328DE575F43F51DD47CD7B /* MSWeakTimer-prefix.pch */,
+				6721A4330FC8259877048C838F9AC108 /* MSWeakTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSWeakTimer";
+			sourceTree = "<group>";
+		};
+		9C70B7F0420F76E3CDBB103C634BD3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */,
+				8E950E681365A41B93C3626C212A2891 /* MSWeakTimer.framework */,
+				212ABBE0BD4495DE81EB7C860A95C64E /* Pods_TCMultitaskTimer_Example.framework */,
+				CD24224894DFB21DA305E0830D69B8BB /* Pods_TCMultitaskTimer_Tests.framework */,
+				4855D83FE576A47E538571EF86A8E812 /* TCMultitaskTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8EB5731C980B6A0F586C74B13FD1F52 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4811CDED0E98BB0CDF108F927281E436 /* Pods-TCMultitaskTimer_Example */,
+				61BCB310CA4F0A81C2FA4B9E7CF951F4 /* Pods-TCMultitaskTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA61745170B955208D440C96D3B57B64 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52A34D313FDC121116BAC60A0A87D227 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C8539A25056DE9907BCC89DD28CE248 /* Development Pods */,
+				EBA3D85CE3623099117FD973285481B0 /* Frameworks */,
+				4DC33AAF70DF7DEC23F169A043DE3A72 /* Pods */,
+				9C70B7F0420F76E3CDBB103C634BD3A2 /* Products */,
+				B8EB5731C980B6A0F586C74B13FD1F52 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E40F48DF434A29E2026D250AB504AF93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E0B31FFB7A5074A31CFD33BF133F9 /* Aspects.modulemap */,
+				BD9C73EBC43E10ADC24BB08A963CA1E7 /* Aspects.xcconfig */,
+				2E6D23EDB917334A5EC7F2B016FAD848 /* Aspects-dummy.m */,
+				D1C3BBAB0A4A3D3D6F258836DCA39ABD /* Aspects-Info.plist */,
+				3420EF0849B107E8ED815086E561D089 /* Aspects-prefix.pch */,
+				10C9269E7E23AE3505BB4061F6C33350 /* Aspects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		EBA3D85CE3623099117FD973285481B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1146374E957D0703496FA7A24707909C /* Aspects.framework */,
+				406CE00C2FF1D350BEBC27C42B1F4F75 /* MSWeakTimer.framework */,
+				BA61745170B955208D440C96D3B57B64 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21B6E5405C97240AEA7FA69A4608671D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270C08FCB074B851553ED3C334E8EF1A /* TCMultitaskTimer-umbrella.h in Headers */,
+				6937BBAC41EBCC158934912D0B3396C3 /* TCMultitaskTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5A304B0EC5C626CDF6AF5B0BEFBBC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA583B3A25BBBE1B4E035ABEED6E0ED /* MSWeakTimer-umbrella.h in Headers */,
+				A7CDD42F921F8FA6DEA5F9AD3090D8AC /* MSWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F93E54BD32ABF6BEA21002C98722DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */,
+				D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA20229B41992B37419E945AFDCD3FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD913F5A897A7E06CC1F06FB107901A /* Pods-TCMultitaskTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE520B38B8D83EF48772AB40F803678F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CD5B9BEDF0F1A9AF8024E0CBC71531 /* Pods-TCMultitaskTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		420D2583DFAF7192FECF567682010347 /* MSWeakTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927F0596B25C116A9EDFCF19B4DAC70E /* Build configuration list for PBXNativeTarget "MSWeakTimer" */;
+			buildPhases = (
+				3E5A304B0EC5C626CDF6AF5B0BEFBBC5 /* Headers */,
+				905CC60B5942F180DC52FB0D015C73C3 /* Sources */,
+				EA343695D43B253A24F5F37817D1358A /* Frameworks */,
+				39BC71AED2398B815E8F75A557F40811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSWeakTimer;
+			productName = MSWeakTimer;
+			productReference = 8E950E681365A41B93C3626C212A2891 /* MSWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53F29401449BC43304CAA8B6E2B1E138 /* Pods-TCMultitaskTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4340D5EAB380BFBD49BA638EA30CDB6B /* Build configuration list for PBXNativeTarget "Pods-TCMultitaskTimer_Tests" */;
+			buildPhases = (
+				BE520B38B8D83EF48772AB40F803678F /* Headers */,
+				47429800BDAE0C8E3DF81AE32BC00088 /* Sources */,
+				A6DC91A82E70E17CF7D6B10E77ADD4C7 /* Frameworks */,
+				5421A8EC380831F43F0A32ADA73A6242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072F115B707DF6839D3EA9B7324DB9F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TCMultitaskTimer_Tests";
+			productName = "Pods-TCMultitaskTimer_Tests";
+			productReference = CD24224894DFB21DA305E0830D69B8BB /* Pods_TCMultitaskTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EADFE71DAD3CFEF1663BF195FBDB789 /* Pods-TCMultitaskTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D44708561560E629522B9279F55BE1 /* Build configuration list for PBXNativeTarget "Pods-TCMultitaskTimer_Example" */;
+			buildPhases = (
+				BBA20229B41992B37419E945AFDCD3FF /* Headers */,
+				A1CA334AC90C7216AC9105495EAEFDBD /* Sources */,
+				A44741AAF2052C66507E1F070DFE90D6 /* Frameworks */,
+				74CA9915692BEFCA8B679DE3DA9E2F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC38CB81794D606A48CF60FCCC25720 /* PBXTargetDependency */,
+				1FF2A4FDE0099D7832E939EC4F0C69FF /* PBXTargetDependency */,
+				B402D6E516A969E0F60FA3FDA3FD28A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TCMultitaskTimer_Example";
+			productName = "Pods-TCMultitaskTimer_Example";
+			productReference = 212ABBE0BD4495DE81EB7C860A95C64E /* Pods_TCMultitaskTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6539905C4D50932B36244650B93C79B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				99F93E54BD32ABF6BEA21002C98722DF /* Headers */,
+				C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */,
+				9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */,
+				9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = 9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC0E19903D6AA870173CAD7081439951 /* TCMultitaskTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8D7C6AE0D0E144E26F65CC036698F1 /* Build configuration list for PBXNativeTarget "TCMultitaskTimer" */;
+			buildPhases = (
+				21B6E5405C97240AEA7FA69A4608671D /* Headers */,
+				570B0A578D1B721EB9796C96B60D09FA /* Sources */,
+				949A17548317CD0DDA8843873EA8484C /* Frameworks */,
+				EE5FCE61BFF15B4420FBA572A81B055F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2443778679E7152977112E1C8ED642CE /* PBXTargetDependency */,
+				613B913DBE3028CF081384BAE6562DA6 /* PBXTargetDependency */,
+			);
+			name = TCMultitaskTimer;
+			productName = TCMultitaskTimer;
+			productReference = 4855D83FE576A47E538571EF86A8E812 /* TCMultitaskTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C70B7F0420F76E3CDBB103C634BD3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6539905C4D50932B36244650B93C79B /* Aspects */,
+				420D2583DFAF7192FECF567682010347 /* MSWeakTimer */,
+				5EADFE71DAD3CFEF1663BF195FBDB789 /* Pods-TCMultitaskTimer_Example */,
+				53F29401449BC43304CAA8B6E2B1E138 /* Pods-TCMultitaskTimer_Tests */,
+				EC0E19903D6AA870173CAD7081439951 /* TCMultitaskTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BC71AED2398B815E8F75A557F40811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5421A8EC380831F43F0A32ADA73A6242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CA9915692BEFCA8B679DE3DA9E2F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5FCE61BFF15B4420FBA572A81B055F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47429800BDAE0C8E3DF81AE32BC00088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDE7E3AF0829D86ABF7CF51A3BF5443 /* Pods-TCMultitaskTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570B0A578D1B721EB9796C96B60D09FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AEE49256AE78CD6D611B9AB79B3192 /* TCMultitaskTimer-dummy.m in Sources */,
+				AD41F519DA9F7704DB024364D17D03CA /* TCMultitaskTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905CC60B5942F180DC52FB0D015C73C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0BB7ABE9E80A64C47F5F8A95746FA8 /* MSWeakTimer-dummy.m in Sources */,
+				8984E44E8E44E5FD3A3D02C53671AFBD /* MSWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA334AC90C7216AC9105495EAEFDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F217C98EECAED6212C9783AB47FB8B7 /* Pods-TCMultitaskTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */,
+				F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072F115B707DF6839D3EA9B7324DB9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TCMultitaskTimer_Example";
+			target = 5EADFE71DAD3CFEF1663BF195FBDB789 /* Pods-TCMultitaskTimer_Example */;
+			targetProxy = 10D9FF7EB554869E17DE653FD8E2BE04 /* PBXContainerItemProxy */;
+		};
+		1FF2A4FDE0099D7832E939EC4F0C69FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSWeakTimer;
+			target = 420D2583DFAF7192FECF567682010347 /* MSWeakTimer */;
+			targetProxy = BB208A931347E509065A9DD90482C174 /* PBXContainerItemProxy */;
+		};
+		2443778679E7152977112E1C8ED642CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
+			targetProxy = 13DA9B2BD1A4696667039430A15EAC47 /* PBXContainerItemProxy */;
+		};
+		613B913DBE3028CF081384BAE6562DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSWeakTimer;
+			target = 420D2583DFAF7192FECF567682010347 /* MSWeakTimer */;
+			targetProxy = 865047355BC774F7B0C863DF0BF59715 /* PBXContainerItemProxy */;
+		};
+		B402D6E516A969E0F60FA3FDA3FD28A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCMultitaskTimer;
+			target = EC0E19903D6AA870173CAD7081439951 /* TCMultitaskTimer */;
+			targetProxy = 586E093C07EC1CFE5AA63B90D42D2262 /* PBXContainerItemProxy */;
+		};
+		BBC38CB81794D606A48CF60FCCC25720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
+			targetProxy = 8CDA730DAED3B0A133C149C88D10261F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005DC6D45314763374FE65C1DCBA5BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DD624379A1F7B9A191F384160B348A /* Pods-TCMultitaskTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		03BCC2BECF388F849E37A7FC98690530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EB250A4B5CC0869483259395B7291B /* MSWeakTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer/MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer.modulemap";
+				PRODUCT_MODULE_NAME = MSWeakTimer;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B540BA4A43292E3220261576A435B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C3463E2E33D7C49709822C3158A3FF /* TCMultitaskTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer.modulemap";
+				PRODUCT_MODULE_NAME = TCMultitaskTimer;
+				PRODUCT_NAME = TCMultitaskTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D475718E301DC252CB075D7842AAF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD50F231E10A4C83B651BCEFC525DB79 /* Pods-TCMultitaskTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49F96DD2D5AEC8CEA4F76FA375A10816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C3463E2E33D7C49709822C3158A3FF /* TCMultitaskTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TCMultitaskTimer/TCMultitaskTimer.modulemap";
+				PRODUCT_MODULE_NAME = TCMultitaskTimer;
+				PRODUCT_NAME = TCMultitaskTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		61CF117150FB4BA90EE6C7A4A88BEF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B526F6A94D302FEBCE7C38024ED24F /* Pods-TCMultitaskTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCMultitaskTimer_Example/Pods-TCMultitaskTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FD56F63B70F670A0A00768E387BDDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EB250A4B5CC0869483259395B7291B /* MSWeakTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer/MSWeakTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer/MSWeakTimer.modulemap";
+				PRODUCT_MODULE_NAME = MSWeakTimer;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		845EF1568EC23AD96DE109111714C18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9C73EBC43E10ADC24BB08A963CA1E7 /* Aspects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF4335B31F1B4C628A6775689A68E2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40DE92D0E689BE4CE57856CDA7FF0EF /* Pods-TCMultitaskTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TCMultitaskTimer_Tests/Pods-TCMultitaskTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F46A072C41D0E95CFB47CC420687A31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9C73EBC43E10ADC24BB08A963CA1E7 /* Aspects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4340D5EAB380BFBD49BA638EA30CDB6B /* Build configuration list for PBXNativeTarget "Pods-TCMultitaskTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4335B31F1B4C628A6775689A68E2FE /* Debug */,
+				005DC6D45314763374FE65C1DCBA5BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845EF1568EC23AD96DE109111714C18C /* Debug */,
+				F46A072C41D0E95CFB47CC420687A31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D44708561560E629522B9279F55BE1 /* Build configuration list for PBXNativeTarget "Pods-TCMultitaskTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CF117150FB4BA90EE6C7A4A88BEF8B /* Debug */,
+				3D475718E301DC252CB075D7842AAF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927F0596B25C116A9EDFCF19B4DAC70E /* Build configuration list for PBXNativeTarget "MSWeakTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD56F63B70F670A0A00768E387BDDD9 /* Debug */,
+				03BCC2BECF388F849E37A7FC98690530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8D7C6AE0D0E144E26F65CC036698F1 /* Build configuration list for PBXNativeTarget "TCMultitaskTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B540BA4A43292E3220261576A435B65 /* Debug */,
+				49F96DD2D5AEC8CEA4F76FA375A10816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

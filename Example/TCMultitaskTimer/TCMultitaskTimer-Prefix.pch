@@ -10,6 +10,10 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+//#define NSLog(format, ...) printf("class: < %s:(Line %d) > method: %s \n%s\n\n", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] );
+
+//#define NSLog(format, ...) printf("class: %s:(Line %d) %s %s\n\n", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] );
+
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
