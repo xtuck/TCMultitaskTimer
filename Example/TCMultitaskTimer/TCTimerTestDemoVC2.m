@@ -1,18 +1,18 @@
 //
-//  TCViewController.m
+//  TCTimerTestDemoVC2.m
 //  TCMultitaskTimer_Example
 //
 //  Created by fengunion on 2020/5/30.
 //  Copyright © 2020 xtuck. All rights reserved.
 //
 
-#import "TCViewController.h"
+#import "TCTimerTestDemoVC2.h"
 
-@interface TCViewController ()
+@interface TCTimerTestDemoVC2 ()
 
 @end
 
-@implementation TCViewController
+@implementation TCTimerTestDemoVC2
 
 - (void)viewDidLoad {
     [super viewDidLoad];

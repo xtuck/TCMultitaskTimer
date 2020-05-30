@@ -1,5 +1,5 @@
 //
-//  TCViewController.h
+//  TCTimerTestDemoVC2.h
 //  TCMultitaskTimer_Example
 //
 //  Created by fengunion on 2020/5/30.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TCViewController : UIViewController
+@interface TCTimerTestDemoVC2 : UIViewController
 
 @end
 
