@@ -100,7 +100,7 @@ static NSTimeInterval const scTimeInterval = 1;
     }
 }
 
-- (void)timerDidFire:(MSWeakTimer *)timer {
+- (void)timerDidFire:(NSTimer *)timer {
     NSMutableArray *tempArray = [[NSMutableArray alloc] initWithArray:self.taskArray];
     for (TCTaskObject *taskObject in tempArray) {
         switch (taskObject.taskStatus) {
