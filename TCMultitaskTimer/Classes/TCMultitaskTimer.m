@@ -7,18 +7,64 @@
 #import "TCMultitaskTimer.h"
 #import "MSWeakTimer.h"
 #import "Aspects.h"
+#import <objc/runtime.h>
+
+@interface TCMTWeakContainer : NSObject
+
+@property (nonatomic, weak) id weakObj;
+@property (nonatomic, copy) id primitiveTK;
+@property (nonatomic, assign) BOOL isPrimitiveTK;
+
+@end
+
+@implementation TCMTWeakContainer
+
+@end
 
 @interface TCTaskObject ()
 
-@property (nonatomic,weak)  NSObject *taskKey;//每个任务对应的key,可以是obj对象
+@property (nonatomic,strong) NSObject *taskKey;//每个任务对应的key,obj对象
 @property (nonatomic,assign) NSUInteger interval;//任务执行间隔时间
 @property (nonatomic,assign) NSInteger currentCount;//任务执行中的计数
 @property (nonatomic,assign) BOOL isDelay;//是否延迟执行，即跳过第一次
 @property (nonatomic,copy) TCTaskBlock task;//任务执行block
 
++ (BOOL)isTKPrimitiveType:(NSObject *)key;
+
 @end
 
 @implementation TCTaskObject
+
+- (NSObject *)taskKey {
+    TCMTWeakContainer *container = objc_getAssociatedObject(self, _cmd);
+    if (container.isPrimitiveTK) {
+        return container.primitiveTK;
+    }
+    return container.weakObj;
+}
+
+- (void)setTaskKey:(NSObject *)taskKey {
+    TCMTWeakContainer *container = nil;
+    if (taskKey != nil) {
+        container = [[TCMTWeakContainer alloc] init];
+        container.isPrimitiveTK = [TCTaskObject isTKPrimitiveType:taskKey];
+        if (container.isPrimitiveTK) {
+            container.primitiveTK = taskKey;
+        } else {
+            container.weakObj = taskKey;
+        }
+    }
+    objc_setAssociatedObject(self, @selector(taskKey), container, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
++ (BOOL)isTKPrimitiveType:(NSObject *)key {
+    if ([key isKindOfClass:NSString.class] ||
+        [key isKindOfClass:NSNumber.class] ||
+        [key isKindOfClass:NSData.class]) {
+        return YES;
+    }
+    return NO;
+}
 
 @end
 
@@ -100,7 +146,7 @@ static NSTimeInterval const scTimeInterval = 1;
     }
 }
 
-- (void)timerDidFire:(NSTimer *)timer {
+- (void)timerDidFire:(MSWeakTimer *)timer {
     NSMutableArray *tempArray = [[NSMutableArray alloc] initWithArray:self.taskArray];
     for (TCTaskObject *taskObject in tempArray) {
         switch (taskObject.taskStatus) {
@@ -163,11 +209,13 @@ static NSTimeInterval const scTimeInterval = 1;
             taskObject.isDelay = isDelay;
             taskObject.interval = interval;
             taskObject.task = task;
-            __weak typeof(self) weakSelf = self;
-            //taskKey为字符串常量时，hook无效，对象销毁后，请外部调用removeTaskWithKey:来停止定时器
-            [taskKey aspect_hookSelector:NSSelectorFromString(@"dealloc") withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> aspectInfo) {
-                [weakSelf removeTaskWithKey:nil];
-            } error:nil];
+            //taskKey为基本数据类型时，被调用的对象销毁后，请外部调用removeTaskWithKey:来停止定时器
+            if (![TCTaskObject isTKPrimitiveType:taskKey]) {
+                __weak typeof(self) weakSelf = self;
+                [taskKey aspect_hookSelector:NSSelectorFromString(@"dealloc") withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> aspectInfo) {
+                    [weakSelf removeTaskWithKey:nil];
+                } error:nil];
+            }
             [self.taskArray addObject:taskObject];
             [self startTask:taskObject];
         }
